@@ -1,0 +1,3 @@
+WeightedDensity.lo: WeightedDensity.cpp WeightedDensity.h
+
+WeightedDensity.h:

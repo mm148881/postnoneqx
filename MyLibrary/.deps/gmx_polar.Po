@@ -1,0 +1,809 @@
+gmx_polar.o: gmx_polar.cpp gmx_polar.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/copyrite.h /usr/include/stdio.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs-64.h /share/intel/Compiler/11.1/046/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+ /share/intel/Compiler/11.1/046/include/stddef.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h \
+ /share/intel/Compiler/11.1/046/include/stddef.h /usr/include/wchar.h \
+ /share/intel/Compiler/11.1/046/include/stddef.h /usr/include/bits/wchar.h \
+ /usr/include/gconv.h /usr/include/wchar.h \
+ /share/intel/Compiler/11.1/046/include/stddef.h \
+ /share/intel/Compiler/11.1/046/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.1.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/simple.h \
+ /share/intel/Compiler/11.1/046/include/limits.h /usr/include/limits.h \
+ /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+ /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+ /usr/include/bits/xopen_lim.h /usr/include/bits/stdio_lim.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/filenm.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/futil.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/typedefs.h /usr/include/sys/types.h \
+ /usr/include/time.h /share/intel/Compiler/11.1/046/include/stddef.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h /usr/include/time.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/wordsize.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/sysstuff.h /usr/include/stdlib.h \
+ /share/intel/Compiler/11.1/046/include/stddef.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/xlocale.h /usr/include/alloca.h \
+ /share/intel/Compiler/11.1/046/include/stddef.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-x86_64/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/signal.h \
+ /usr/include/bits/sigset.h /usr/include/bits/signum.h /usr/include/time.h \
+ /usr/include/bits/siginfo.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/sigstack.h \
+ /usr/include/sys/ucontext.h /usr/include/signal.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/sigthread.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/wordsize.h /share/intel/Compiler/11.1/046/include/stddef.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /share/intel/Compiler/11.1/046/include/limits.h /usr/include/limits.h \
+ /usr/include/time.h /share/intel/Compiler/11.1/046/include/stddef.h \
+ /usr/include/bits/time.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/enums.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/block.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/idef.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/symtab.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/atoms.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/trx.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/../molfile_plugin.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/../vmdplugin.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/../vmdio.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/topology.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/energy.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/inputrec.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/ishift.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/graph.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/nrnb.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/nblist.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/nsgrid.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/commrec.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/forcerec.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/ns.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/genborn.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/qmmmrec.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/fcdata.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/mdatom.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/pbc.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/ifunc.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/../typedefs.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/filenm.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/group.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/state.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/shellfc.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/constr.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/matrix.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/oenv.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/globsig.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/nlistheuristics.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/types/iteratedconstraints.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/macros.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/pbc.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/smalloc.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/statutil.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/readinp.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/warninp.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/wman.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/pdbio.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/symtab.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/atomprop.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/index.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/oenv.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/gmxfio.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/xdrf.h /usr/include/rpc/rpc.h \
+ /usr/include/rpc/types.h /usr/include/sys/time.h /usr/include/bits/time.h \
+ /usr/include/sys/param.h /share/intel/Compiler/11.1/046/include/limits.h \
+ /usr/include/limits.h /usr/include/linux/param.h /usr/include/asm/param.h \
+ /usr/include/asm-x86_64/param.h /usr/include/netinet/in.h /usr/include/stdint.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/socket.h /usr/include/sys/uio.h \
+ /usr/include/bits/uio.h /share/intel/Compiler/11.1/046/include/stddef.h \
+ /usr/include/bits/socket.h /share/intel/Compiler/11.1/046/include/stddef.h \
+ /share/intel/Compiler/11.1/046/include/limits.h /usr/include/limits.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm-x86_64/socket.h /usr/include/asm/sockios.h \
+ /usr/include/asm-x86_64/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/wordsize.h /usr/include/rpc/xdr.h \
+ /usr/include/rpc/auth.h /usr/include/rpc/clnt.h /usr/include/sys/un.h \
+ /usr/include/string.h /share/intel/Compiler/11.1/046/include/stddef.h \
+ /usr/include/rpc/rpc_msg.h /usr/include/rpc/auth_unix.h \
+ /usr/include/rpc/auth_des.h /usr/include/rpc/svc.h /usr/include/rpc/svc_auth.h \
+ /usr/include/rpc/netdb.h /share/intel/Compiler/11.1/046/include/stddef.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/vec.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/maths.h \
+ /share/intel/Compiler/11.1/046/include/math.h /usr/include/math.h \
+ /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+ /usr/include/bits/huge_vall.h /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathcalls.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/gmx_fatal.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.1.2/include/stdarg.h /usr/include/errno.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/mpelogging.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/physics.h \
+ /share/intel/Compiler/11.1/046/include/math.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/xvgr.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/viewit.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/nbsearch.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/indexutil.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/trajana.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/selection.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/position.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/strdb.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/string2.h /usr/include/ctype.h \
+ /usr/include/errno.h /home/marchi/gmx4.5.5-noMPI/include/gromacs/rmpbc.h \
+ /home/marchi/gmx4.5.5-noMPI/include/gromacs/do_fit.h AtomIndex.h \
+ /usr/include/c++/4.1.2/cstdlib \
+ /usr/include/c++/4.1.2/x86_64-redhat-linux/bits/c++config.h \
+ /usr/include/bits/wordsize.h \
+ /usr/include/c++/4.1.2/x86_64-redhat-linux/bits/os_defines.h \
+ /usr/include/c++/4.1.2/x86_64-redhat-linux/bits/cpu_defines.h \
+ /usr/include/c++/4.1.2/cstddef /share/intel/Compiler/11.1/046/include/stddef.h \
+ /usr/include/c++/4.1.2/iostream /usr/include/c++/4.1.2/ostream \
+ /usr/include/c++/4.1.2/ios /usr/include/c++/4.1.2/iosfwd \
+ /usr/include/c++/4.1.2/x86_64-redhat-linux/bits/c++locale.h \
+ /usr/include/c++/4.1.2/cstring /usr/include/c++/4.1.2/cstdio \
+ /usr/include/c++/4.1.2/clocale /usr/include/locale.h \
+ /share/intel/Compiler/11.1/046/include/stddef.h /usr/include/bits/locale.h \
+ /usr/include/langinfo.h /usr/include/nl_types.h /usr/include/bits/locale.h \
+ /usr/include/iconv.h /share/intel/Compiler/11.1/046/include/stddef.h \
+ /usr/include/libintl.h /usr/include/c++/4.1.2/x86_64-redhat-linux/bits/c++io.h \
+ /usr/include/c++/4.1.2/x86_64-redhat-linux/bits/gthr.h \
+ /usr/include/c++/4.1.2/x86_64-redhat-linux/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/setjmp.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/wordsize.h /usr/include/c++/4.1.2/cctype \
+ /usr/include/c++/4.1.2/bits/stringfwd.h /usr/include/c++/4.1.2/bits/postypes.h \
+ /usr/include/c++/4.1.2/cwchar /usr/include/c++/4.1.2/ctime /usr/include/wchar.h \
+ /share/intel/Compiler/11.1/046/include/stddef.h \
+ /usr/include/c++/4.1.2/bits/functexcept.h \
+ /usr/include/c++/4.1.2/exception_defines.h /usr/include/c++/4.1.2/exception \
+ /usr/include/c++/4.1.2/bits/char_traits.h \
+ /usr/include/c++/4.1.2/bits/stl_algobase.h /usr/include/c++/4.1.2/climits \
+ /share/intel/Compiler/11.1/046/include/limits.h /usr/include/limits.h \
+ /usr/include/c++/4.1.2/bits/stl_pair.h \
+ /usr/include/c++/4.1.2/bits/cpp_type_traits.h \
+ /usr/include/c++/4.1.2/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.1.2/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.1.2/bits/concept_check.h \
+ /usr/include/c++/4.1.2/bits/stl_iterator.h /usr/include/c++/4.1.2/debug/debug.h \
+ /usr/include/c++/4.1.2/bits/localefwd.h /usr/include/c++/4.1.2/bits/ios_base.h \
+ /usr/include/c++/4.1.2/bits/atomicity.h \
+ /usr/include/c++/4.1.2/x86_64-redhat-linux/bits/atomic_word.h \
+ /usr/include/c++/4.1.2/bits/locale_classes.h /usr/include/c++/4.1.2/string \
+ /usr/include/c++/4.1.2/memory /usr/include/c++/4.1.2/bits/allocator.h \
+ /usr/include/c++/4.1.2/x86_64-redhat-linux/bits/c++allocator.h \
+ /usr/include/c++/4.1.2/ext/new_allocator.h /usr/include/c++/4.1.2/new \
+ /usr/include/c++/4.1.2/bits/stl_construct.h \
+ /usr/include/c++/4.1.2/bits/stl_uninitialized.h \
+ /usr/include/c++/4.1.2/bits/stl_raw_storage_iter.h /usr/include/c++/4.1.2/limits \
+ /usr/include/c++/4.1.2/bits/stl_function.h \
+ /usr/include/c++/4.1.2/bits/basic_string.h /usr/include/c++/4.1.2/algorithm \
+ /usr/include/c++/4.1.2/bits/stl_algo.h /usr/include/c++/4.1.2/bits/stl_heap.h \
+ /usr/include/c++/4.1.2/bits/stl_tempbuf.h \
+ /usr/include/c++/4.1.2/bits/basic_string.tcc /usr/include/c++/4.1.2/streambuf \
+ /usr/include/c++/4.1.2/bits/streambuf.tcc \
+ /usr/include/c++/4.1.2/bits/basic_ios.h \
+ /usr/include/c++/4.1.2/bits/streambuf_iterator.h \
+ /usr/include/c++/4.1.2/bits/locale_facets.h /usr/include/c++/4.1.2/cwctype \
+ /usr/include/wctype.h /share/intel/Compiler/11.1/046/include/stddef.h \
+ /usr/include/c++/4.1.2/x86_64-redhat-linux/bits/ctype_base.h \
+ /usr/include/c++/4.1.2/x86_64-redhat-linux/bits/ctype_inline.h \
+ /usr/include/c++/4.1.2/bits/codecvt.h \
+ /usr/include/c++/4.1.2/x86_64-redhat-linux/bits/time_members.h \
+ /usr/include/c++/4.1.2/x86_64-redhat-linux/bits/messages_members.h \
+ /usr/include/c++/4.1.2/bits/basic_ios.tcc \
+ /usr/include/c++/4.1.2/bits/ostream.tcc /usr/include/c++/4.1.2/locale \
+ /usr/include/c++/4.1.2/bits/locale_facets.tcc /usr/include/c++/4.1.2/typeinfo \
+ /usr/include/c++/4.1.2/istream /usr/include/c++/4.1.2/bits/istream.tcc Charges.h \
+ Atoms.h Metric.h /usr/include/c++/4.1.2/cmath \
+ /share/intel/Compiler/11.1/046/include/math.h \
+ /usr/include/c++/4.1.2/bits/cmath.tcc AtomsPDB.h Phi.h Rho.h Charges.h Grid.h \
+ Array.h /usr/include/c++/4.1.2/sstream /usr/include/c++/4.1.2/bits/sstream.tcc \
+ /usr/include/c++/4.1.2/sstream /usr/include/c++/4.1.2/cerrno \
+ /usr/include/errno.h fftw++.h /usr/include/c++/4.1.2/fstream \
+ /usr/include/c++/4.1.2/x86_64-redhat-linux/bits/basic_file.h \
+ /usr/include/c++/4.1.2/bits/fstream.tcc /home/marchi/fftw3/include/fftw3.h \
+ /share/intel/Compiler/11.1/046/include/stddef.h /usr/include/c++/4.1.2/complex \
+ MyVec.h /usr/include/c++/4.1.2/vector /usr/include/c++/4.1.2/bits/stl_vector.h \
+ /usr/include/c++/4.1.2/bits/stl_bvector.h /usr/include/c++/4.1.2/bits/vector.tcc \
+ DiffCoeffs.h DiffCoeffs.cpp DiffCoeffs.h Grid.cpp Grid.h \
+ /usr/include/c++/4.1.2/set /usr/include/c++/4.1.2/bits/stl_tree.h \
+ /usr/include/c++/4.1.2/bits/stl_set.h /usr/include/c++/4.1.2/bits/stl_multiset.h \
+ Dielectric.h Dipoles.h RhoDip.h Averages.h RhoAverage.h RhoDipAverage.h
+
+gmx_polar.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/copyrite.h:
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/share/intel/Compiler/11.1/046/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/gconv.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/simple.h:
+
+/share/intel/Compiler/11.1/046/include/limits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/filenm.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/futil.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/typedefs.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/sysstuff.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/alloca.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-x86_64/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/signum.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/include/bits/sigthread.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/enums.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/block.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/idef.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/symtab.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/atoms.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/trx.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/../molfile_plugin.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/../vmdplugin.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/../vmdio.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/topology.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/energy.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/inputrec.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/ishift.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/graph.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/nrnb.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/nblist.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/nsgrid.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/commrec.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/forcerec.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/ns.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/genborn.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/qmmmrec.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/fcdata.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/mdatom.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/pbc.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/ifunc.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/filenm.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/group.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/state.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/shellfc.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/constr.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/matrix.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/oenv.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/globsig.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/nlistheuristics.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/types/iteratedconstraints.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/macros.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/pbc.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/smalloc.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/statutil.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/readinp.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/warninp.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/wman.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/pdbio.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/symtab.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/atomprop.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/index.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/oenv.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/gmxfio.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/xdrf.h:
+
+/usr/include/rpc/rpc.h:
+
+/usr/include/rpc/types.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/sys/param.h:
+
+/usr/include/linux/param.h:
+
+/usr/include/asm/param.h:
+
+/usr/include/asm-x86_64/param.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/stdint.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/socket.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/asm-x86_64/socket.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/asm-x86_64/sockios.h:
+
+/usr/include/bits/in.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/rpc/xdr.h:
+
+/usr/include/rpc/auth.h:
+
+/usr/include/rpc/clnt.h:
+
+/usr/include/sys/un.h:
+
+/usr/include/string.h:
+
+/usr/include/rpc/rpc_msg.h:
+
+/usr/include/rpc/auth_unix.h:
+
+/usr/include/rpc/auth_des.h:
+
+/usr/include/rpc/svc.h:
+
+/usr/include/rpc/svc_auth.h:
+
+/usr/include/rpc/netdb.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/vec.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/maths.h:
+
+/share/intel/Compiler/11.1/046/include/math.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/gmx_fatal.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/mpelogging.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/physics.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/xvgr.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/viewit.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/nbsearch.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/indexutil.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/trajana.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/selection.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/position.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/strdb.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/string2.h:
+
+/usr/include/ctype.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/rmpbc.h:
+
+/home/marchi/gmx4.5.5-noMPI/include/gromacs/do_fit.h:
+
+AtomIndex.h:
+
+/usr/include/c++/4.1.2/cstdlib:
+
+/usr/include/c++/4.1.2/x86_64-redhat-linux/bits/c++config.h:
+
+/usr/include/c++/4.1.2/x86_64-redhat-linux/bits/os_defines.h:
+
+/usr/include/c++/4.1.2/x86_64-redhat-linux/bits/cpu_defines.h:
+
+/usr/include/c++/4.1.2/cstddef:
+
+/usr/include/c++/4.1.2/iostream:
+
+/usr/include/c++/4.1.2/ostream:
+
+/usr/include/c++/4.1.2/ios:
+
+/usr/include/c++/4.1.2/iosfwd:
+
+/usr/include/c++/4.1.2/x86_64-redhat-linux/bits/c++locale.h:
+
+/usr/include/c++/4.1.2/cstring:
+
+/usr/include/c++/4.1.2/cstdio:
+
+/usr/include/c++/4.1.2/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/langinfo.h:
+
+/usr/include/nl_types.h:
+
+/usr/include/iconv.h:
+
+/usr/include/libintl.h:
+
+/usr/include/c++/4.1.2/x86_64-redhat-linux/bits/c++io.h:
+
+/usr/include/c++/4.1.2/x86_64-redhat-linux/bits/gthr.h:
+
+/usr/include/c++/4.1.2/x86_64-redhat-linux/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/c++/4.1.2/cctype:
+
+/usr/include/c++/4.1.2/bits/stringfwd.h:
+
+/usr/include/c++/4.1.2/bits/postypes.h:
+
+/usr/include/c++/4.1.2/cwchar:
+
+/usr/include/c++/4.1.2/ctime:
+
+/usr/include/c++/4.1.2/bits/functexcept.h:
+
+/usr/include/c++/4.1.2/exception_defines.h:
+
+/usr/include/c++/4.1.2/exception:
+
+/usr/include/c++/4.1.2/bits/char_traits.h:
+
+/usr/include/c++/4.1.2/bits/stl_algobase.h:
+
+/usr/include/c++/4.1.2/climits:
+
+/usr/include/c++/4.1.2/bits/stl_pair.h:
+
+/usr/include/c++/4.1.2/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.1.2/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.1.2/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.1.2/bits/concept_check.h:
+
+/usr/include/c++/4.1.2/bits/stl_iterator.h:
+
+/usr/include/c++/4.1.2/debug/debug.h:
+
+/usr/include/c++/4.1.2/bits/localefwd.h:
+
+/usr/include/c++/4.1.2/bits/ios_base.h:
+
+/usr/include/c++/4.1.2/bits/atomicity.h:
+
+/usr/include/c++/4.1.2/x86_64-redhat-linux/bits/atomic_word.h:
+
+/usr/include/c++/4.1.2/bits/locale_classes.h:
+
+/usr/include/c++/4.1.2/string:
+
+/usr/include/c++/4.1.2/memory:
+
+/usr/include/c++/4.1.2/bits/allocator.h:
+
+/usr/include/c++/4.1.2/x86_64-redhat-linux/bits/c++allocator.h:
+
+/usr/include/c++/4.1.2/ext/new_allocator.h:
+
+/usr/include/c++/4.1.2/new:
+
+/usr/include/c++/4.1.2/bits/stl_construct.h:
+
+/usr/include/c++/4.1.2/bits/stl_uninitialized.h:
+
+/usr/include/c++/4.1.2/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/4.1.2/limits:
+
+/usr/include/c++/4.1.2/bits/stl_function.h:
+
+/usr/include/c++/4.1.2/bits/basic_string.h:
+
+/usr/include/c++/4.1.2/algorithm:
+
+/usr/include/c++/4.1.2/bits/stl_algo.h:
+
+/usr/include/c++/4.1.2/bits/stl_heap.h:
+
+/usr/include/c++/4.1.2/bits/stl_tempbuf.h:
+
+/usr/include/c++/4.1.2/bits/basic_string.tcc:
+
+/usr/include/c++/4.1.2/streambuf:
+
+/usr/include/c++/4.1.2/bits/streambuf.tcc:
+
+/usr/include/c++/4.1.2/bits/basic_ios.h:
+
+/usr/include/c++/4.1.2/bits/streambuf_iterator.h:
+
+/usr/include/c++/4.1.2/bits/locale_facets.h:
+
+/usr/include/c++/4.1.2/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/include/c++/4.1.2/x86_64-redhat-linux/bits/ctype_base.h:
+
+/usr/include/c++/4.1.2/x86_64-redhat-linux/bits/ctype_inline.h:
+
+/usr/include/c++/4.1.2/bits/codecvt.h:
+
+/usr/include/c++/4.1.2/x86_64-redhat-linux/bits/time_members.h:
+
+/usr/include/c++/4.1.2/x86_64-redhat-linux/bits/messages_members.h:
+
+/usr/include/c++/4.1.2/bits/basic_ios.tcc:
+
+/usr/include/c++/4.1.2/bits/ostream.tcc:
+
+/usr/include/c++/4.1.2/locale:
+
+/usr/include/c++/4.1.2/bits/locale_facets.tcc:
+
+/usr/include/c++/4.1.2/typeinfo:
+
+/usr/include/c++/4.1.2/istream:
+
+/usr/include/c++/4.1.2/bits/istream.tcc:
+
+Charges.h:
+
+Atoms.h:
+
+Metric.h:
+
+/usr/include/c++/4.1.2/cmath:
+
+/usr/include/c++/4.1.2/bits/cmath.tcc:
+
+AtomsPDB.h:
+
+Phi.h:
+
+Rho.h:
+
+Grid.h:
+
+Array.h:
+
+/usr/include/c++/4.1.2/sstream:
+
+/usr/include/c++/4.1.2/bits/sstream.tcc:
+
+/usr/include/c++/4.1.2/cerrno:
+
+fftw++.h:
+
+/usr/include/c++/4.1.2/fstream:
+
+/usr/include/c++/4.1.2/x86_64-redhat-linux/bits/basic_file.h:
+
+/usr/include/c++/4.1.2/bits/fstream.tcc:
+
+/home/marchi/fftw3/include/fftw3.h:
+
+/usr/include/c++/4.1.2/complex:
+
+MyVec.h:
+
+/usr/include/c++/4.1.2/vector:
+
+/usr/include/c++/4.1.2/bits/stl_vector.h:
+
+/usr/include/c++/4.1.2/bits/stl_bvector.h:
+
+/usr/include/c++/4.1.2/bits/vector.tcc:
+
+DiffCoeffs.h:
+
+DiffCoeffs.cpp:
+
+Grid.cpp:
+
+/usr/include/c++/4.1.2/set:
+
+/usr/include/c++/4.1.2/bits/stl_tree.h:
+
+/usr/include/c++/4.1.2/bits/stl_set.h:
+
+/usr/include/c++/4.1.2/bits/stl_multiset.h:
+
+Dielectric.h:
+
+Dipoles.h:
+
+RhoDip.h:
+
+Averages.h:
+
+RhoAverage.h:
+
+RhoDipAverage.h:
