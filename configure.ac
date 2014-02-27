@@ -112,7 +112,6 @@ AC_C_INLINE
 AC_TYPE_SIZE_T
 
 # Checks for library functions.
-AC_FUNC_MALLOC
 AC_CHECK_FUNCS([remove sqrt strdup mkstemp exit])
 
 AC_CONFIG_FILES([Makefile alglib/Makefile MyLibrary/Makefile VoroElec/Makefile src/Makefile])
